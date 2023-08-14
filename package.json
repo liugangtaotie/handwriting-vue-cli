@@ -1,0 +1,29 @@
+{
+  "name": "handwriting-vue-cli",
+  "version": "1.0.0",
+  "description": "handwriting vue-cli",
+  "main": "index.js",
+  "bin": "/bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liugangtaotie/handwriting-vue-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liugangtaotie/handwriting-vue-cli/issues"
+  },
+  "homepage": "https://github.com/liugangtaotie/handwriting-vue-cli#readme",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^9.0.0",
+    "git-clone": "^0.2.0",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.1",
+    "ora": "^5.0.0"
+  }
+}
