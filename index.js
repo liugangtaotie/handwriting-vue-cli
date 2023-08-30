@@ -44,7 +44,7 @@ program.on('--help', function () {
 })
 
 program
-  .name('pusa-cli')
+  .name('pusa-cli-one')
   .usage(`<command> [option]`)
   .version(`pusa-cli ${require('./package.json').version}`)
 

@@ -1,13 +1,13 @@
 {
-  "name": "pusa-cli-frontend",
-  "version": "1.0.3",
+  "name": "pusa-cli-one",
+  "version": "1.0.4",
   "description": "一款脚手架，安装可选择vue3最新版本后端管理系统或vue2 3D系统",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "pusa-cli": "./bin/www"
+    "pusa-cli-one": "./bin/www"
   },
   "keywords": [
     "cli",
