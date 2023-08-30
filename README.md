@@ -5,7 +5,7 @@ npm install pusa-cli-frontend -g
 ```
 
 ```sh
-pusa-cli create my-project
+pusa-cli-frontend create my-project
 ```
 
 ## ⚡ 简介

@@ -25,7 +25,7 @@ program
 program.on('--help', function () {
   console.log(
     '\r\n' +
-      figlet.textSync('pusa-cli', {
+      figlet.textSync('pusa-cli-frontend', {
         font: '3D-ASCII',
         horizontalLayout: 'default',
         verticalLayout: 'default',
@@ -37,16 +37,16 @@ program.on('--help', function () {
   console.log()
   console.log(
     `Run ${chalk.cyan(
-      'pusa-cli <command> --help'
+      'pusa-cli-frontend <command> --help'
     )} for detailed usage of given command.`
   )
   console.log()
 })
 
 program
-  .name('pusa-cli-one')
+  .name('pusa-cli-frontend')
   .usage(`<command> [option]`)
-  .version(`pusa-cli ${require('./package.json').version}`)
+  .version(`pusa-cli-frontend ${require('./package.json').version}`)
 
 // 解析用户执行时输入的参数
 // process.argv 是 nodejs 提供的属性
